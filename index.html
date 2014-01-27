@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<script type="text/javascript" src="jquery.min.js"></script> 
+		<script type="text/javascript" src="http://api.odnoklassniki.ru/js/fapi5.js" defer="defer"></script>
+		<script type="text/javascript" src="script.js" defer="defer"></script> 
+	</head>
+	<body>
+		<input id='quantity' type="text" value="1" min="1"/>
+		<button onclick="loadForm(document.getElementById('quantity').value);">Draw</button>
+		<div id='content'/>
+	</body>
+</html>
